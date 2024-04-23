@@ -67,12 +67,12 @@ html {
     font-size: 1.2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    transform: translateY(-50px);
+    transform: translateX(-50px);
  animation:slide-from-right 5s forwards;
  animation-delay: 3s;
 }
 @keyframes slide-from-right {
-80% {transform: translateY(10px); }
+80% {transform: translateX(10px); }
 100% {transform: translateZ(0); }
  }
 
